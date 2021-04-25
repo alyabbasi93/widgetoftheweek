@@ -66,6 +66,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Container(
           decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(50),
+              //color: Colors.white,
               image: DecorationImage(image: AssetImage('Assets/cover.png')),
               border: Border.all(color: Colors.black),
               boxShadow: [
